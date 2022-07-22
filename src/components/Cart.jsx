@@ -17,7 +17,7 @@ const Cart = () => {
         !items.length ? <h2 style={{
           color: "white",
           textAlign: "center",
-          fontSize: "3rem"
+          fontSize: "2.5rem"
         }}>Your cart is empty.</h2> : <>
         <div className="cart-list">
         <table>
