@@ -1,5 +1,6 @@
 .item-list {
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 0 auto;
   width: 100%;
@@ -7,7 +8,6 @@
 
 .item {
   width: 70%;
-  height: 58vh;
   background-color: #333;
   color: #fff;
   border: 1px solid #fff;
@@ -46,4 +46,10 @@
   padding: 15px 32px;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 798px) {
+  .item-list {
+    grid-gap: 5rem;
+  }
 }
